@@ -13,17 +13,20 @@ Objective: Click the target as many times as possible within the selected time f
 Click Mode:
 Select Clicks: Choose your challenge with 10, 25, or 50 clicks, or set a custom number of clicks.
 Objective: Reach the target number of clicks as quickly as you can.
+
 3. Interactive Gameplay
 Dynamic Target: The target appears at random positions within the game area, ensuring each click requires quick reflexes and adaptability.
 Real-Time Feedback: Keep track of your time and click count with an intuitive status bar displayed during the game.
-4. Performance Tracking
+
+5. Performance Tracking
 Score Display: At the end of each game, view your total clicks and the time taken.
 Best Scores: Your best performances are saved locally, allowing you to monitor your improvement over time.
 Leaderboard: Compete with other players by comparing your scores on the leaderboard.
-5. Responsive Design
+
+7. Responsive Design
 Enjoy a seamless gaming experience across all devices. The game's layout adapts to various screen sizes, ensuring optimal performance whether you're on a desktop, tablet, or mobile device.
 
-6. Easy Restart
+8. Easy Restart
 Ready for another round? Simply click the "Play Again" button to start a new game instantly.
 
 Get Ready to Click! Challenge yourself and see how fast you can react. Whether you're aiming for high scores or just having fun, the Reaction Speed Game provides an exciting way to engage your reflexes and compete with others.
