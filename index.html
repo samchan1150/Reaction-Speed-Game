@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction Speed Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Reaction Speed Game</h1>
+
+        <!-- Player Name Input -->
+        <div id="name-input">
+            <p>Please enter your name:</p>
+            <input type="text" id="player-name" placeholder="Your Name">
+        </div>
+
+        <div id="mode-selection">
+            <p>Select Game Mode:</p>
+            <label>
+                <input type="radio" name="game-mode" value="time" checked>
+                Time Mode
+            </label>
+            <label>
+                <input type="radio" name="game-mode" value="click">
+                Click Mode
+            </label>
+        </div>
+
+        <div id="duration-selection" class="hidden">
+            <p>Select Game Duration:</p>
+            <button class="duration-btn" data-duration="15">15 Seconds</button>
+            <button class="duration-btn" data-duration="30">30 Seconds</button>
+            <button class="duration-btn" data-duration="60">60 Seconds</button>
+            <button class="custom-btn" data-type="time">Custom Time</button>
+        </div>
+
+        <div id="click-selection" class="hidden">
+            <p>Select Number of Clicks:</p>
+            <button class="click-btn" data-clicks="10">10 Clicks</button>
+            <button class="click-btn" data-clicks="25">25 Clicks</button>
+            <button class="click-btn" data-clicks="50">50 Clicks</button>
+            <button class="custom-btn" data-type="click">Custom Clicks</button>
+        </div>
+
+        <button id="start-btn">Start Game</button>
+        <!-- Added Leaderboard Button -->
+        <button id="leaderboard-btn">Leaderboard</button>
+    </div>
+
+    <div id="game-container" class="hidden">
+        <div id="target"></div>
+        <div id="status-bar" class="hidden">
+            <div id="timer">
+                Time: <span id="time-display">0</span>s
+            </div>
+            <div id="score">
+                Clicks: <span id="click-display">0</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="stats" class="hidden">
+        <h2>Game Over!</h2>
+        <p id="score-text">Your score: <span id="score-value">0</span></p>
+        <p>Best score: <span id="best-score">-</span></p>
+        <button id="restart-btn">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

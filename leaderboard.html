@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="leaderboard-screen">
+        <h1>Leaderboard</h1>
+        
+        <!-- Mode Selection Buttons -->
+        <div class="mode-buttons">
+            <button id="time-mode-btn" class="mode-btn active">Time Mode</button>
+            <button id="click-mode-btn" class="mode-btn">Click Mode</button>
+        </div>
+        
+        <table class="leaderboard-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th id="score-header">Score</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard-body">
+                <!-- Leaderboard entries will be populated here dynamically -->
+            </tbody>
+        </table>
+        <button id="back-btn">Back to Game</button>
+    </div>
+    <script src="leaderboard.js"></script>
+</body>
+</html>
